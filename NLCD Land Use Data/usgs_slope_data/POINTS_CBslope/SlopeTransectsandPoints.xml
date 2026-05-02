@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Grace D. Molino</origin>
+        <origin>Zafer Defne</origin>
+        <origin>Neil K. Ganju</origin>
+        <origin>Joel A. Carr</origin>
+        <origin>Glenn R. Gutenspergen</origin>
+        <origin>David C. Walters</origin>
+        <pubdate>2020</pubdate>
+        <title>Slope Values Across Marsh-Forest Boundary in Chesapeake Bay Region, USA</title>
+        <edition>1.0</edition>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>DOI:10.5066/P9EJ6PGT</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Hazards and Resources Program</publish>
+        </pubinfo>
+        <othercit>Suggested citation: Molino, G., Defne, Z., and Ganju, N.K., 2020, Slope Values Across Marsh-Forest Boundary in Chesapeake Bay Region, USA: U.S. Geological Survey data release, https://doi.org/10.5066/P9EJ6PGT.</othercit>
+        <onlink>https://doi.org/10.5066/P9EJ6PGT</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The marsh-forest boundary in the Chesapeake Bay was determined by geoprocessing high-resolution (1 square meter) land use and land cover data sets. Perpendicular transects were cast at standard intervals (30 meters) along the boundary within a GIS by repurposing the Digital Shoreline Analysis System (DSAS) Version 5.0, an ArcGIS extension developed by the U.S. Geological Survey. Average and maximum slope values were assigned to each transect from surface elevation data. The same values were also provided as points at the center of the transect where it crossed over the boundary. The slope values across the marsh-forest transition zone and at the boundary itself provide comprehensive data layers for local, state, and Federal managers to improve understanding of salt marsh migration. This additionally aids the U.S. Geological Survey in its effort to assess the coastal vulnerability and response of salt marsh ecosystems, including the Chesapeake Bay region.</abstract>
+      <purpose>The shoreline and baseline files were created to delineate the marsh-forest transition zone in the Chesapeake Bay region. The slope was determined at 30-meter resolution across the marsh-forest boundary to better understand the factors influencing the process of salt marsh ecosystems migrating into coastal forests documented in the region. </purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2020</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.4894</westbc>
+        <eastbc>-75.0574</eastbc>
+        <northbc>39.5759</northbc>
+        <southbc>36.5300</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>geospatial datasets</themekey>
+        <themekey>wetland ecosystems</themekey>
+        <themekey>wetland functions</themekey>
+        <themekey>coastal ecosystems</themekey>
+        <themekey>coastal processes</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>remote sensing</themekey>
+        <themekey>salt marsh</themekey>
+        <themekey>coastal forest</themekey>
+        <themekey>ghost forest</themekey>
+        <themekey>Digital Shoreline Analysis System (DSAS)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Chesapeake Bay</placekey>
+        <placekey>Blackwater National Wildlife Refuge</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>Delmarva Peninsula</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Zafer Defne</cntper>
+          <cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2254</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>zdefne@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+	<browse>
+		<browsen>https://www.sciencebase.gov/catalog/file/get/5e95cbd082ce172707f2528c?name=SlopeTransectsandPoints.png</browsen>
+		<browsed>Graphic shows slope transects and points overlaying Esri basemap.</browsed>
+		<browset>PNG</browset>
+	</browse>
+	<native>Environment of Metadata Creation: Microsoft Windows 10 Enterprise Version 1809 (Build 17763.1098); Esri ArcGIS 10.6.1 Service Pack N/A (Build N/A)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Overall, the accuracy of this dataset is inherited from the accuracy of the underlying U.S. Geological Survey Coastal National Elevation Database (CoNED) topobathy, National Wetlands Inventory wetlands data files, and Chesapeake Conservancy High-Resolution Land-Use and Land-Cover source datasets.  
+
+Three tests were performed on two sample forest patches, one on the Eastern Shore and one on the western side of the Chesapeake Bay to determine how changing the parameters which determined where transects were cast alters the calculated slope values. First, the transects were cast every 30m with a random starting point. We shifted them laterally 15m and recalculated the average slope values. Second, we cast the transects every 20m instead of 30m to determine the effect of changing the resolution. Third, we did not smooth the forest-marsh boundary at all and then smoothed it 30m. To compare the effect of these tests on the transect slope values, we found the average slope value of all the transects in each test situation and then calculated the percent change of this averaged value between the two scenarios for each test. For all 6 tests (three tests x two sites), the percent change in average slope value was less than 3%, with 4 out of the 6 tests had percent change below 1.5% change.
+
+Additionally, a limited dataset of field measurements was available for three locations representing areas with low, medium, and high slope at the marsh-forest boundary. The start and end points of the low slope transect are (-75.8094, 38.2146) and (-75.80922, 38.21458), the medium transect start and end points are (-75.98234, 38.40398) and (-75.98226, 38.4040385), and the high transect start and end points are (-76.90067, 37.94665) to (-76.90087, 37.94657). The average percent rise calculated in ArcGIS corresponded well with those taken in the field, ie. the boundary with the highest slope in the field measurements was also the boundary with the highest calculated slope. We do not claim that this method is more accurate than taking measurements by hand. In fact, this method is only as accurate as the input datasets. However, it provides a reasonable estimate of slopes across an area too extensive for field work to cover. </attraccr>
+    </attracc>
+    <logic>There are a few small patches within the CoNED elevation dataset where there are cells with "-1.0" value.  This represents an area that was artificially hydroflattened; transects that overlaid this area were removed from the final product because it results in an artificial value of 0 for the slope. Additionally, there are other areas where the original source data puts a single negative value for creeks and other channels which often includes marsh units; this impacts about 9% of the transects. We left these transects in the dataset as we have no way to determine if the single value is an accurate representation of the elevation of the creek or channel. Additionally, future users of the metadata may have updated elevation files that they can use to address this inconsistency.</logic>
+    <complete>Only NWI category Estuarine Intertidal Emergent (E2EM) wetlands were considered for the marsh extent. Geographic area consisted of the Maryland and Virginia portions of Chesapeake Bay.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>JEFFREY DANIELSON</origin>
+            <origin>DEAN TYLER</origin>
+            <pubdate>20160501</pubdate>
+            <title>Topobathymetric Model for Chesapeake Bay Region - District of Columbia, States of Delaware, Maryland, Pennsylvania, and Virginia, 1859 to 2015</title>
+            <edition>First</edition>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>Topobathymetric Model, 1859 to 2015</sername>
+              <issue>0.1</issue>
+            </serinfo>
+            <onlink>https://topotools.cr.usgs.gov/topobathy_viewer/dwndata.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>18590101</begdate>
+              <enddate>20150131</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>time period of data</srccurr>
+        </srctime>
+        <srccitea>CoNED Chesapeake Bay Topobathy</srccitea>
+        <srccontr>Average and maximum slope values assigned to each transect were determined from the CoNED Chesapeake Bay topobathy. Projection was NAD NAD 1983 UTM Zone 18N. Downloaded geodatabase January 29, 2020.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Wetlands Inventory</origin>
+            <pubdate>20171001</pubdate>
+            <title>National Wetlands Inventory for the State of Maryland</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.fws.gov/wetlands/Data/State-Downloads.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>197704</begdate>
+              <enddate>2015</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>time period of data</srccurr>
+        </srctime>
+        <srccitea>MD NWI</srccitea>
+        <srccontr>This file was combined with the Virginia wetland datasets to obtain continuous Chesapeake Bay wetland file. The resulting file was used to determine the marsh-forest boundaries. Projection is in NAD 1983 Albers. Downloaded geodatabase September 20, 2019.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Wetlands Inventory</origin>
+            <pubdate>20171001</pubdate>
+            <title>National Wetlands Inventory for the State of Virginia</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.fws.gov/wetlands/Data/State-Downloads.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>197711</begdate>
+              <enddate>2015</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>time period of data</srccurr>
+        </srctime>
+        <srccitea>VA NWI</srccitea>
+        <srccontr>This file was combined with the Maryland wetland datasets to obtain continuous Chesapeake Bay wetland file. The resulting file was used to determine the marsh-forest boundaries. Projection is in NAD 1983 Albers. Downloaded geodatabase September 20, 2019.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS</origin>
+            <origin>Chesapeake Bay Program</origin>
+            <origin>Chesapeake Bay Program Land Use Workgroup</origin>
+            <origin>Chesapeake Conservancy</origin>
+            <origin>Conservation Innovation Center</origin>
+            <pubdate>20181109</pubdate>
+            <title>Chesapeake Conservancy High-Resolution Land-Use Dataset for the Chesapeake Bay 2013/2014</title>
+            <geoform>raster digital data</geoform>
+            <onlink>https://chesapeakeconservancy.org/conservation-innovation-center-2/high-resolution-data/land-use-data-project/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2013</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>aerial imagery source date</srccurr>
+        </srctime>
+        <srccitea>CC Chesapeake Bay Land-Use Dataset</srccitea>
+        <srccontr>Source was used to obtain spatial extent of forests in the Chesapeake Bay region. Projection was in USA Contiguous Albers Equal Area Conic USGS version. Downloaded file for Chesapeake Bay on September 6, 2019.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS</origin>
+            <pubdate>20180215</pubdate>
+            <title>Chesapeake Conservancy High-Resolution Land-Cover Dataset for the Chesapeake Bay 2013/2014</title>
+            <geoform>raster digital data</geoform>
+            <onlink>https://chesapeakeconservancy.org/conservation-innovation-center-2/high-resolution-data/land-cover-data-project/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2013</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>aerial imagery source date</srccurr>
+        </srctime>
+        <srccitea>CC Chesapeake Bay Land-Cover Dataset</srccitea>
+        <srccontr>Source was used to obtain spatial extent of forests in the Chesapeake Bay region. The 6-class Chesapeake Bay file was used. Projection was in USA Contiguous Albers Equal Area Conic USGS version. Downloaded September 5, 2019.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>This process step and all subsequent process steps were performed by the same person, Grace Molino, in ArcMap (ver. 10.6.2) using tools from ArcToolbox, unless otherwise stated. For complex operations, names of specific tools used are given in CAPITAL letters (any critical parameters used are given in parentheses, separated by a semicolon, immediately after the tool name). The input and output file names are provided in [square brackets] when necessary. Units for length and area calculations are meters (m) and square meters (m2) unless otherwise stated
+
+Create subdomain tiles.The individual datasets are too large for analysis as a whole so all analyses are completed within subdomains (subregions 0-11) created in this processing step. 
+
+a) CREATE FISHNET (Template Extent=Chesapeake_Bay_Topobathy_DEM_1m_v2.tif; Number of Rows=6; Number of Columns=2; Geometry Type=polygon) To define tiles used in the analysis [BayWide_fishnet.shp]. 
+
+b) PROJECT [BayWide_fishnet.shp] from NAD 1983 UTM Zone 18N to USA Contiguous Albers Equal Area Conic USGS version [BayWide_fishnet_Albers.shp].</procdesc>
+        <srcused>CoNED Chesapeake Bay Topobathy</srcused>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Process Maryland and Virginia National Wetland Inventory datasets to obtain the desired wetland category for this study and then combine them for a complete file of estuarine emergent wetlands in the Chesapeake Bay region.
+
+a) EXPORT features from NWI datasets after SELECT ("ATTRIBUTE" LIKE 'E2%EM%' OR "ATTRIBUTE" LIKE 'E2EM%' OR "ATTRIBUTE" LIKE 'E2AB3%' OR "ATTRIBUTE" LIKE 'E2SS%' OR "ATTRIBUTE" LIKE 'E2US4%') to select estuarine intertidal areas of 1) Emergent, 2) Scrub-shrub, 3) Rooted vascular aquatic bed, 4) Organic unconsolidated shore classes [MD_NWI_E2wetlands.shp and VA_NWI_E2wetlands.shp]. 
+
+b) MERGE the state wetland files [MD_NWI_E2wetlands.shp and VA_NWI_E2wetlands.shp] to create [MDVA_NWI_E2wetlands.shp]. This will be used to erase any overlap with the forest features from Land Use and Land Cover datasets.
+
+c) EXPORT features from NWI datasets after SELECT ("ATTRIBUTE" LIKE 'E2EM%') to select estuarine intertidal emergent areas [MDVA_NWI_E2EMwetlands.shp]. This is a subset of features in step (a) and will be used to establish the marsh-forest boundary.
+
+d) PROJECT [MDVA_NWI_E2wetlands.shp] and [MDVA_NWI_E2EMwetlands.shp] from NAD 1983 Albers to NAD 1983 UTM Zone 18N [MDVA_NWI_E2wetlandsUTM.shp] and [MDVA_NWI_E2EMwetlandsUTM.shp].
+</procdesc>
+        <srcused>MD NWI</srcused>
+        <srcused>VA NWI</srcused>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Prepare Chesapeake Conservancy BayWide Land-Use dataset. The Land-Use dataset is a raster file with 19 different land use categories. We are only interested in the "forest" category and need the corresponding forest extent as polygons to analyze alongside the salt marsh polygons. 
+
+The following process was undertaken for each of the twelve subregions in the [BayWide_fishnet_Albers.shp]. This example is written for subregion 3 which means the process steps are for the Land-Use file created in step a) for region 3 [BayWide_1m_LU3.tif]. These are the same steps taken for all the subregions.  
+
+a) SPLIT (Input=BayWide_1m_LU.tif; Split Features=BayWide_fishnet.shp; Split Field=Zone) into twelve subregions. One example of the result which is used in the following process steps: [BayWide_1m_LU3.tif].
+
+b) For each region, EXTRACT BY ATTRIBUTES (Input raster=BayWide_1m_LU3.tif; Where Clause=“Value”=8) to create [BayWide_1m_LU3_forest.tif]. Value 8 is forest.
+
+c) Convert RASTER TO POLYGON (Input=BayWide_1m_LU3_forest.tif; Field=Value; Simplify polygons=checked) [BayWide_1m_LU3_forestpoly.shp].
+
+d) PROJECT from USA Contiguous Albers Equal Area Conic USGS version to NAD 1983 UTM Zone 18N [BayWide_1m_LU3_forestpolyUTM.shp]. Then REPAIR GEOMETRY.</procdesc>
+        <srcused>CC Chesapeake Bay Land-Use Dataset</srcused>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Prepare Chesapeake Conservancy BayWide Land-Cover dataset. The Land-Cover dataset is a raster file with 6 different land use categories. We are only interested in the "Forest Canopy and Shrubland" category and need the corresponding forest extent as polygons to analyze alongside the salt marsh polygons. 
+
+The following process was undertaken for each of the twelve subregions in the [BayWide_fishnet_Albers.shp]. This example is written for subregion 3 which means the process steps are for the Land-Cover file created in step a) for region 3 [Baywide_1m_LC3.tif]. These are the same steps taken for all the subregions.  
+
+
+a) SPLIT (Input=Baywide_LandCover_UVM_CC_WorldView.tif; Split Features=BayWide_fishnet_Albers.shp; Split Field=Zone) into twelve subregions. One example of the result which is used in the following process steps:[BayWide_1m_LC3.tif].
+
+b) For each region, EXTRACT BY ATTRIBUTES (Input raster= Baywide_LandCover_UVM_CC_WorldView_3.tif; Where Clause=“Value”=2) to create [BayWide_1m_LC3_forestandshrubs.tif]. Value 2 is "Tree Canopy and Shrubland".
+
+c) Convert RASTER TO POLYGON (Input=[BayWide_1m_LC3_forestandshrubs.tif]; Field=Value; Simplify polygons=checked) to [BayWide_1m_LC3_forestpoly.shp]. 
+
+d) PROJECT from USA Contiguous Albers Equal Area Conic USGS version to NAD 1983 UTM Zone 18N [BayWide_1m_LC3_forestpolyUTM.shp]. Then REPAIR GEOMETRY. 
+</procdesc>
+        <srcused>CC Chesapeake Bay Land-Cover Dataset</srcused>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Obtain forest polygons which border marsh.
+
+a) MERGE [BayWide_1m_LC3_forestpolyUTM.shp] and [BayWide_1m_LU3_forestpolyUTM.shp] datasets [LULC3_forest.shp].
+
+b) DISSOLVE (Input=LULC3_forest.shp; Create multipart features=unchecked) to combine overlapping features [LULC3_forest_diss.shp]. Then REPAIR GEOMETRY. 
+
+c) ELIMINATE POLYGON PARTS (Input= [LULC3_forest_diss.shp]; Condition=percent; Part area percent=99; Part option=contained only) to remove any interior holes in the forest polygons [LULC3_forest_d_nh.shp].
+
+d) ERASE any overlap with [MDVA_NWI_E2wetlands.shp] which will remove any area considered generally to be wetlands [LULC3_forest_dnh_erase.shp]. Then DISSOLVE (Create multipart features=unchecked) again to itemize any small forest patches created in the previous step [LULC3_forest_raw.shp].
+
+e) Remove any polygons that are too small (smaller than 900 square meters) for target resolution. ADD FIELD to [LULC3_forest_raw.shp] attribute table called “Area” and then CALCULATE GEOMETRY of each polygon from within attribute table. EXPORT forest polygons from [LULC3_forest_raw.shp] which are over 900m2 [LULC3_forest900m.shp].
+
+f) SELECT BY LOCATION forest polygons from [LULC3_forest900m.shp] which are within 10m search radius of [MDVA_NWI_E2EMwetlands.shp] marsh polygons [LULC3_forest900m_w10m.shp]. These are the forest polygons which border salt marsh.
+</procdesc>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Prepare forest polygons. The following processing steps are needed to simplify the forest polygon edges and eliminate odd geometries which resulted from preceding processing steps such as the conversion of the forest files from raster to polygon.
+
+a) ELIMINATE POLYGON PARTS (Condition=percent; Part area percent=99; Part option=contained only) [LULC3_forest900m_w10m.shp] to remove any interior holes in the forest polygons [LULC3_forest900m_nh.shp].
+
+b) BUFFER (Input=[LULC3_forest900m_nh.shp], Linear unit=5m) to create [LULC3_forest900m_out5m.shp] and then again BUFFER (Input=[LULC3_forest900m_out5m.shp], Linear unit= -5m) to remove unwanted edge features created during previous merge [LULC3_forest900m_in5m.shp]. 
+
+c) SMOOTH POLYGON (Smoothing algorithm=PAEK; Smoothing tolerance=30 meters) to get the smoothed forest polygons [LULC3_forest900m_sm30m.shp].
+
+d) BUFFER (Input=[LULC3_forest900m_sm30m.shp], Linear unit=-10m, Dissolve type=NONE) to create [LULC3_forest900m_in10m.shp]. Then SMOOTH POLYGON (Smoothing algorithm=PAEK; Smoothing tolerance=20 meters) to remove sharp edges which complicate analysis [LULC3_forest900m_sm20m.shp].
+
+e) Then DISSOLVE (Create multipart features=unchecked) again to separate any small forest patches created in the previous steps [LULC3_forest900m_sm20m_diss.shp].
+
+f) ADD FIELD to [LULC3_forest900m_sm20m_diss.shp] attribute table called “Area” and then CALCULATE GEOMETRY of remaining polygon from within attribute table. EXPORT forest polygons from [LULC3_forest900m_sm20m_diss.shp] which are over 900m2 [LULC3_forestnew900m.shp].
+
+g) SIMPLIFY POLYGON (Simplification algorithm=point remove; Tolerance=0.5m) to reduce file size [LULC3_forestnew900m_simp.shp].
+
+h) ELIMINATE POLYGON PARTS (Condition=percent; Part area percent=99; Part option=contained only) to remove any interior holes in the forest polygons [LULC3_forestnew900m_s_nh.shp]. 
+</procdesc>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Create input files for Digital Shoreline Analysis System (DSAS). DSAS was designed to estimate shoreline change over time by casting transects to a stable baseline. We repurposed this tool to cast transects 30 meters apart and perpendicular to the marsh-forest boundary by creating artificial shoreline and baseline files which are based on the forest polygons within 10m of salt marshes.The shoreline and baseline files do not represent the actual extent of the marsh or forest, they are only intended as an approximation of the marsh-forest transition zone so we may estimate the slope across this area. They are 20m apart which provides a buffer for us to capture the boundary if the marsh and/or forest extent is inaccurate. 
+
+As DSAS was not created with this purpose in mind, there are several limitations that we established work arounds for in the following steps. For example, DSAS crashes if the number of transects in the output file exceeds approximately 66,000 transects. If the estimated number of features (polygon perimeter divided by the transect interval) is larger than this number, the subregion you are working in needs to be broken into smaller zones. This calculation needs to be done before step a).  Additionally, DSAS errors often occur if the tool tries to cast transects when there are multiple segmented shorelines and baselines within the same files. To reduce the complexity of the baseline and shoreline files, we have the baselines and shorelines extend around the entire forest polygon which we use as an approximation for the location of the marsh-forest boundary, so DSAS treats them as islands, and later remove the transects not cast where forest borders marsh. 
+
+a) If [LULC3_forestnew900m_s_nh.shp] needs to be split, CREATE FISHNET (Input=[LULC3_forestnew900m_s_nh.shp]). The number of columns and rows is dependent on the shape and distribution of forest polygons in the input file. SPLIT [LULC3_forestnew900m_s_nh.shp] into zones, such as Zone A, [LULC3_ZoneA.shp].
+
+b) BUFFER (Input=[LULC3_ZoneA.shp], Linear unit=20m, Dissolve type=NONE) to create [LULC3_ZoneA_out20m.shp].
+
+c) ELIMINATE POLYGON PARTS (Condition=percent; Part area percent=99; Part option=contained only) to remove any interior holes in the forest polygons [LULC3_ZoneA_b_nh.shp]. 
+
+d) BUFFER (Input=[LULC3_ZoneA_b_nh.shp], Linear unit=-20m, Dissolve type=NONE) to create [LULC3_ZoneA_in20m.shp].
+
+e) FEATURE TO LINE (Input=[LULC3_ZoneA_in20m.shp]) to create baseline [LULC3_ZoneA_line.shp]. Then DISSOLVE (Create multipart feature) to create a single baseline [LULC3_ZoneA_baseline.shp].
+
+f) FEATURE TO LINE (Input=[LULC3_ZoneA_b_nh.shp]) to create shorelines [[LULC3_ZoneA_bdnh_line.shp]. Then DISSOLVE (Create multipart feature) to create a single shoreline [LULC3_ZoneA_shoreline.shp].
+</procdesc>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Cast transects across the marsh-forest boundary using Digital Shoreline Analysis Systems (DSAS) Version 5.0. FOr questions not covered by the information here, see the DSAS User Guide available online. Slope data is then added to these transects from the CoNED topobathy. Note that slope value of -9999 represents a slope crossing an area of the topobathy with a NaN value. Slope values of 0 flag transects which cross over areas where the originators of the dataset used artificial fill values such as -1 so there is artificially no change in slope. These are removed in step i).
+
+a) IMPORT [LULC3_ZoneA_baseline.shp] and [LULC3_ZoneA_shoreline.shp] to a personal geodatabase to create feature class files [LULC3_ZoneA_baseline.mdb] and [LULC3_ZoneA_shoreline.mdb]. 
+
+b) Change attributes to meet DSAS requirements: ADD FIELD [LULC3_ZoneA_shoreline.mdb] for DATE (Text, Length=10) and UNCERTAIN (Short integer) and delete Id field. For [LULC3_ZoneA_baseline.mdb] set Id equal to Object ID and make last column.
+
+c) Import files into DSAS. Set output file to same personal geodatabase as input files [Transects_LULC3_ZA.mdb].
+
+d) Set the following parameters in DSAS Set Default Parameters. Baseline tab: Right-hand baseline orientation, Baseline placement onshore; Shoreline tab: Landward intersection. Set the following parameters in DSAS Cast Transects. Maximum search distance: 25m, Transect spacing: 30m, Smoothing distance:  0m, Clip transects to shoreline extent. 
+
+e) SELECT BY LOCATION transects from the resulting transect file [Transects_LULC3_ZA.mdb] which are within 10m of [MDVA_NWI_E2EMwetlandsUTM.shp] to create shapefile with transects only across the marsh-forest boundary [Transects_LULC3_ZA_mfb.shp]. Save file outside of personal geodatabase. 
+
+f) Examine transects cast along artificial edges created by fishnets, both the exterior and interior fishnets. Remove transects which were cast along these artificial edges.
+
+g) MERGE transects from all zones in region [TRANSECTS_LULC3_mfb.shp]. 
+
+h) ADD SURFACE INFORMATION (Input surface= Chesapeake_Bay_Topobathy_DEM_1m_v2.tif; Output property=Maximum slope, Average slope).
+
+i) Remove all transects where Maximum and/or Average slope equals -9999 or 0 as this reflects artificial evaluation values in the topobathy file.
+
+j) MERGE all regions to create one file of transects for Chesapeake Bay (TRANSECTS_CBslope.shp).
+</procdesc>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Create points at marsh-forest boundary with the average slope across the transect. The shoreline and baseline files were created 10m on either side of the approximated marsh-forest boundary, so the mid-point of the transects is considered to be the approximate location of the boundary. However, this step does not calculate the slope at the boundary, the value of the point is still the average of the slope across the entire transect. The intent is to provide a visualization of the boundary for users and a file for users to create a boundary line file if they choose. 
+
+a) GENERATE POINTS ALONG LINES (Input features= TRANSECTS_CBslope.shp; Point placement=percentage; Percentage=50) to create points along the marsh forest boundary with the average and maximum slope values associated with the underlying transect [POINTS_CBslope.shp]. </procdesc>
+        <procdate>2020</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>217200</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-75.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TRANSECTS_CBslope.shp Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the dataset.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv><udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Azimuth</attrlabl>
+        <attrdef>Degree from north at which the transect was cast. Added by DSAS.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>360.0</rdommax>
+            <attrunit>Degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+        <attrdef>Length of transect.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>19.866282557</rdommin>
+            <rdommax>25.0002340392</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Max_Slope</attrlabl>
+        <attrdef>Maximum slope of underlying DEM raster cells that the transect crosses.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>2.72274851207e-06</rdommin>
+            <rdommax>2521.44328217</rdommax>
+            <attrunit>Percent rise</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Avg_Slope</attrlabl>
+        <attrdef>Average slope of underlying DEM raster cells that the transect crosses.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>5.96046091471e-07</rdommin>
+            <rdommax>1434.64672589</rdommax>
+            <attrunit>Percent rise</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>POINTS_CBslope.shp Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the dataset.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv><udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Max_Slope</attrlabl>
+        <attrdef>Maximum slope of underlying DEM raster cells that the transect crosses.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>2.72274851207e-06</rdommin>
+            <rdommax>2521.44328217</rdommax>
+            <attrunit>Percent rise</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Avg_Slope</attrlabl>
+        <attrdef>Average slope of underlying DEM raster cells that the transect crosses.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>5.96046091471e-07</rdommin>
+            <rdommax>1434.64672589</rdommax>
+            <attrunit>Percent rise</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+	<resdesc>TRANSECTS_CBslope, POINTS_CBslope</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+		<digtinfo>
+          <formname>Shapefile</formname>
+     <formvern>ArcGIS 10.6.1</formvern>
+     <formcont>This zipped file contains a point shapefile and its components, metadata in xml format and a browse image.</formcont>
+        </digtinfo>
+          <digtopt>
+			<onlinopt>
+				<computer>
+					<networka>
+						<networkr>https://www.sciencebase.gov/catalog/item/5e95cbd082ce172707f2528c</networkr>
+						<networkr>https://doi.org/10.5066/P9EJ6PGT</networkr>
+						</networka>
+					</computer>
+					<accinstr>The first link in the network resources is to download data directly. The second link points to a landing page with metadata and data.</accinstr>
+				</onlinopt>
+			</digtopt>
+		</digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200521</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Grace D Molino</cntper>
+          <cntorg>U.S. Geological Survey, NORTHEAST REGION</cntorg>
+        </cntperp>
+        <cntpos>Associate</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>508-548-8700</cntvoice>
+        <cntemail>gmolino@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
