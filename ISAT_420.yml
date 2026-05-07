@@ -1,0 +1,24 @@
+name: ISAT_420
+channels:
+  - defaults
+dependencies:
+  - dask
+  - h5netcdf
+  - jupyter
+  - netcdf4
+  - pooch
+  - scipy
+  - seaborn
+  - cartopy
+  - numpy
+  - xarray
+  - matplotlib
+  - geopandas
+  - openpyxl
+  - s3fs
+  - boto3
+  - pandas
+  - cdsapi
+  - osmnx
+  - py3dep
+prefix: /opt/anaconda3/envs/ISAT_420
