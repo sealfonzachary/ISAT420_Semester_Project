@@ -1,0 +1,11 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# HyRiver / aiohttp NLCD cache database
+Data/aiohttp_cache.sqlite
+
+# Optional SQLite cache/database files
+*.sqlite
+*.sqlite3
+*.db
