@@ -2,10 +2,14 @@
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
 
+# Mac Finder metadata files
+.DS_Store
+**/.DS_Store
+
 # HyRiver / aiohttp NLCD cache database
 Data/aiohttp_cache.sqlite
 
 # Optional SQLite cache/database files
 *.sqlite
 *.sqlite3
-*.db
+*.db.DS_Store
